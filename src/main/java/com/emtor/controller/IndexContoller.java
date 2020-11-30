@@ -10,4 +10,9 @@ public class IndexContoller {
     public  String index(){
         return "heolsad";
     }
+
+    @GetMapping("/index1")
+    public  String index1(){
+        return "服务器";
+    }
 }
